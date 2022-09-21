@@ -2,6 +2,8 @@
 
 ## Objectives
 
+![big O](https://media.geeksforgeeks.org/wp-content/cdn-uploads/mypic.png)
+
 - Describe what it is
   - It's important to have a precise vocabulary to talk about how our code performs
   - Useful for discussing trade-offs between different approaches
@@ -76,4 +78,15 @@
 
 ## Logarithms
 
-- 
+- log<sub>2</sub>(8) = 3 -> 2<sup>3</sup> = 8
+- log<sub>2</sub>(value) = exponent -> 2<sup>exponent</sup> = value
+- We'll omit the 2, log === log<sub>2</sub>
+- Rule of thumb
+  - The logarithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that is <= 1
+- Logarithmic time complexity is great! O(log n)
+- Who cares? 
+  - Certain searching algorithms have logarithmic time complexity.
+  - Efficient sorting algorithms involve logarithms.
+  - Recursion sometimes involves logarithmic space complexity.
+
+## Big O notation is everywhere, so get lots of practice!
