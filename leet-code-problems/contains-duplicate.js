@@ -24,3 +24,8 @@ const containsDuplicate = (nums) => {
   }
   return false;
 };
+
+// 1 line solution, set data structure does not allow duplicates. If original array length is nor equal to set size, it means a duplicate is detected.
+const containDuplicate = (nums) => {
+  return nums.length !== new Set(nums).size;
+};
