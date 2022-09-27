@@ -1,4 +1,5 @@
 # Data Structures And Algorithm Notes and Practice
 
-I will be using this repo to record the algorithms and data structures I reviewed. I will also include what patterns I find with more practice
-.
+Notes will be taken based off of Colt Steele's Udemy Course on Javascript Algorithms and Data Structures, along with practice problems I will be doing.
+
+I will also include notes on what patterns I find with practice.
