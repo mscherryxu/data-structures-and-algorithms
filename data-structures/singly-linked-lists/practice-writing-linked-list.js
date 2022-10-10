@@ -79,3 +79,21 @@ const recursiveSumList = (head) => {
   if (head === null) return 0;
   return head.val + sumList(head.next);
 };
+
+/* Linked List Find
+Write a function, linkedListFind, that takes in the head of a linked list and a target value. The function should return a boolean indicating whether or not the linked list contains the target. */
+
+const linkedListFind = (head, target) => {
+  let current = head;
+  while (current !== null) {
+    if (current.val.toLowerCase() === target) return true;
+    current = current.next;
+  }
+  return false;
+};
+
+const recursiveLinkedListFind = (head, target) => {
+  if (head === null) return;
+  if (head.val === target) return true;
+  return recursiveLinkedListFind(head.next, target);
+};
