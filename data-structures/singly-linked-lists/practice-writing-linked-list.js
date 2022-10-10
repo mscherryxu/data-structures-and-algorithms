@@ -62,3 +62,20 @@ const fillValues = (head, values) => {
   values.push(head.val);
   fillValues(head.next, values);
 };
+
+// sum list
+const sumList = (head) => {
+  let sum = 0;
+  let current = head;
+  while (current !== null) {
+    sum += current.val;
+    current = current.next;
+  }
+  return sum;
+};
+
+// recursive solution
+const recursiveSumList = (head) => {
+  if (head === null) return 0;
+  return head.val + sumList(head.next);
+};
