@@ -8,6 +8,7 @@ Pushing pseudocode
 - If there is no head property on the list, set the head and tail to be the newly created node
 - Otherwise, set the next property on the tail to be the new node and set the tail property on the list to be the newly created node
 - Increment the length by one
+- Return the linked list
 */
 
 class Node {
