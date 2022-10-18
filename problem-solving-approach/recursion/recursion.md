@@ -56,3 +56,4 @@ For the example:
       - Local memory with `n: 0`
 - Call stack
   - Contains `countdown(2)`, `countdown(1)`, `countdown(0)`
+  - Will be empty after running all functions and global execution context will still be there if app is still running.
