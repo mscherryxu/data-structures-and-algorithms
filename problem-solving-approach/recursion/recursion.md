@@ -26,10 +26,33 @@ recursion();
 Whenever you make a call, the function is put on the call stack until computer runs out of memory.
 
 ```js
+// example
 function countdown(n) {
+  console.log(n);
+
   // base case
   if (n === 0) return;
+
   // recursive call
   countdown(n-1);
+  return;
 }
+
+countdown(2);
 ```
+
+Recursion implicitly uses the call stack.
+
+For the example:
+
+- Global execution context
+  - Contains global memory
+    - Contains `countdown function`
+- `countdown(2)` has its own execution context
+  - Local memory with `n: 2`
+  - Another execution context is created `countdown(1)`
+    - Local memory with `n: 1`
+    - Next execution context is created `countdown(0)`
+      - Local memory with `n: 0`
+- Call stack
+  - Contains `countdown(2)`, `countdown(1)`, `countdown(0)`
