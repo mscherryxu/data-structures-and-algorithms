@@ -29,4 +29,4 @@ function harmlessRansomNote(noteText, magazineText) {
   return noteIsPossible;
 }
 
-// Linear time complexity O(n + m) or O(n)
+// This has linear time complexity O(n + m) or O(n)
