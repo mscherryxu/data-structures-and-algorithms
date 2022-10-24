@@ -93,3 +93,43 @@ You can categorize (almost) every interview problem into one of ~16 patterns (al
 - Pick one coding challenge site.
 - Do 100 problems, not 100, and truly understand the patterns and data structures.
 - Focus on 2 resources (max).
+
+## Studying - Technical Question Template
+
+- Be comfortable using this template in a google doc, whiteboard and runnable coding environment.
+- Communicate your thought process out loud during every step.
+  - Gives interviewer chance to course-correct, ask questions.
+  - ***Listen to what the interviewer says/asks during every step.***
+    - Stop immediately, they are most likely giving you a hint.
+
+1. Ask Clarifying Questions
+   - Can I expect that ___?
+     - Can I assume all numbers are whole numbers? 
+     - Will numbers always be positive? 
+     - Can I assume the arrays are sorted? 
+     - Can the numbers be duplicated? 
+     - Can there be more than one pair?)
+   - State and clarify key assumptions, write them on the board.
+2. Write Input/Output
+    - Ensure you know what type of input to expect and what output should be
+3. Generate Test Cases
+    - Include 1 basic test and 2 edge-case tests
+4. **Figure out which Data Structure and Algorithm best solve the problem**
+    - Does it fit a pattern?
+5. Write out the Algorithm in Very Basic Pseudo-Code
+    - Explain that you will write a little big of pseudo-code first, but then will write code.
+    - Do not go down an "Insanely complex implementation" road. If you are, stop and look for ways to simplify. You are probably missing "the trick/pattern".
+    - Write out the data structure and algorithm as it applies to the problem.
+    - Be brief. Example: Write 'swap' instead of actual swap function.
+    - Run through one test case line-by-line.
+6. Discuss the Time and Space Complexity (Big O) of your proposed solution
+    - Should I start coding with that?
+    - Chance to course correct
+7. Write Actual Code
+    - Write descriptive variable and function names.
+    - If you made it here, you're in a good spot.
+8. Test
+    - Run through each test case line-by-line.
+    - Add additional error handling / debug as needed.
+
+- This promotes you speaking your thought process out loud.
