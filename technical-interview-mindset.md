@@ -133,3 +133,10 @@ You can categorize (almost) every interview problem into one of ~16 patterns (al
     - Add additional error handling / debug as needed.
 
 - This promotes you speaking your thought process out loud.
+
+## Applying
+
+- Apply to jobs where you meet 50-75% of the requirements
+- If job description is what you want to become, go for it!
+- Small startup = full-stack, all hands on deck, very quick-paced to learn.
+- Medium-to-large size with a little bit of hand-holding.
