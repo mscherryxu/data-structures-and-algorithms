@@ -91,7 +91,7 @@ You can categorize (almost) every interview problem into one of ~16 patterns (al
 - *Focus on one resource at a time. Repeat them.*
 - By adding resources, you focus on finishing the resources not mastering the content. You finish a resource then start the next one at 0%.
 - Pick one coding challenge site.
-- Do 100 problems, not 100, and truly understand the patterns and data structures.
+- Do 100 problems, not 1000, and truly understand the patterns and data structures.
 - Focus on 2 resources (max).
 
 ## Studying - Technical Question Template
