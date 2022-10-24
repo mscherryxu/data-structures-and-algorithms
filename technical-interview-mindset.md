@@ -43,3 +43,53 @@ For each company, list:
     - Giant, Public
     - Extremely Rigid
     - Company-Specific Interview Framework
+
+## Studying - Data Structures, Algorithms, Big O
+
+- Each technical question has 3 components:
+  - Data Structures
+    - How can I represent this problem in a data structure?
+  - Algorithm
+    - What can I do to this data structure to output my solution?
+  - Analysis Techniques (Big O)
+    - What is the time and space complexity?
+
+### Focus on small subset of algorithms will being success! 90%+ of technical interviews on these data structures
+
+- Hashes and Nested Arrays
+  - 2D matrix in chess board
+- Linked Lists
+- Stacks, Queues, and Heaps
+- Graphs, Trees
+  - Great for pathfinding and networks
+
+You can categorize (almost) every interview problem into one of ~16 patterns (algorithms). Have a toolbelt ready.
+
+- Memoization, Recursion, Dynamic Programming
+- Linear Algos - Arrays, Strings (Sliding Windows, Two Pointers, Sorting(Merge/Quick)
+- Tree Algos (Binary, Breadth / Depth First Search, Pathfinding)
+
+## Studying - Don't read Cracking the Coding Interview or do Leetcode Challenges and Avoid GeeksForGeeks
+
+- Cracking the Coding Interview is a FAANG-focused.
+- Leetcode is a competitive programming platform at its core, not an interview platform (Started with 100 problems, had over 1800 now).
+- Leetcode "Hard" questions usually don't show up in interviews.
+  - Hard problems give you the illusion that you need to prepare more, so you spent more time on the site.
+- Companies know that you can't write perfect code in 30 minutes that passes 100s of test cases.
+- In interviews, companies care about Big O, not on optimizing ms.
+- These resources are unnecessarily overwhelming and promote anxiety.
+- Pick 1-3 courses and **master** them.
+  - Quinton's favorite courses:
+    - [Educative - Grokking the Interview](https://www.educative.io/courses/grokking-the-coding-interview)
+    - [Complete Intro to Computer Science](https://frontendmasters.com/courses/computer-science-v2/)
+    - [Interview Cake](https://www.interviewcake.com/)
+  - Quinton's favorite coding challenge site:
+    - [codewars](https://www.codewars.com/) (low stress, good mentality)
+
+**Most difficult part of interview is knowing which data structure and pattern to use** - key to acing interview
+
+- *Focus on one resource at a time. Repeat them.*
+- By adding resources, you focus on finishing the resources not mastering the content. You finish a resource then start the next one at 0%.
+- Pick one coding challenge site.
+- Do 100 problems, not 100, and truly understand the patterns and data structures.
+- Focus on 2 resources (max).
