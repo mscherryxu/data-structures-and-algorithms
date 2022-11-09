@@ -38,7 +38,7 @@ Constraints:
 1 <= arr.length <= 104
 1 <= arr[i] <= 105
 */
-
+œ;
 const replaceElements = (arr) => {
   // edge case
   if (arr.length === 1) return [-1];
