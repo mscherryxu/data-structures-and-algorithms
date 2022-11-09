@@ -59,13 +59,16 @@ Depends on various factors (dataset, table size, etc)
 ### Two Most Common Ways to Handle Collision Are...
 
 1. Separate Chaining
-   - A linked list is formed if the output/index is the same
-   - If the output is the same, the output is added to the linked list at that index
+   - A doubly linked list is formed if the output/index is the same after adding a key-value pair to the hash table
+   - If the output is the same, the output is added to the doubly linked list
+   - Uses a lot of memory
 
 2. Linear Probing (falls under open addressing)
    - Open-addressing has a bunch of different techniques, such as linear probing, quadratic probing, and double hashing
    - Easier than separate chaining for unbounded data set
    - This technique, we can scan forwards one index at a time for the next empty/deleted slot (wrapping around when we have reached the last slot) whenever there is a collision
+   - Not using extra memory space
+   - Easier for unbounded data set
 
 ## Hash Table Methods
 
@@ -74,3 +77,31 @@ Depends on various factors (dataset, table size, etc)
 - remove(key): removes the given key.
 - keys(): returns all the keys in the table.
 - values(): returns all the values in the table.
+
+## Hash Table Class
+
+```js
+class HashTable {
+  constructor() {
+    this.array = [];
+  }
+
+  get(key) {}
+  set(key, val) {}
+  remove(key) {}
+  keys() {} // returns an array of keys
+  values() {} // return an array of values
+}
+```
+
+## Time Complexity
+
+- get O(1)
+- set O(1)
+- remove O(1)
+- keys() O(n)
+- values() O(n)
+
+`Map` object holds key-value pairs too, but remembers original insertion order of keys, while hash tables do not remember order.
+
+Hash tables allow computer to remember things and help reduce number of operations.
