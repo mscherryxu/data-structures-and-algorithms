@@ -10,6 +10,14 @@ Popping pesudocode
 - Return the value of the node removed
 */
 
+/* Shifting pseudocode
+- If there are no nodes, return undefined
+- Store the current head property in a variable
+- Set the head property to be the current head's next property
+- Decrement the length by 1
+- Return the value of the node removed
+*/
+
 class SinglyLinkedList {
   constructor() {
     this.head = null;
@@ -46,6 +54,17 @@ class SinglyLinkedList {
       this.tail = null;
     }
     return current;
+  }
+
+  shift() {
+    if (!this.head) return undefined;
+    let currentHead = this.head;
+    this.head = currentHead.next;
+    this.length--;
+    if (this.length === 0) {
+      this.tail = null;
+    }
+    return currentHead;
   }
 }
 
