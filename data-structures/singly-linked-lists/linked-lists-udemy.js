@@ -28,6 +28,12 @@ Popping pesudocode
 - Return the linked list
 */
 
+/* Get pseudocode
+- This function should accept an index
+- If the index is < 0 or >= length of the list, return null
+- Loop through the list until you reach the index and return the node at that specific index
+*/
+
 class SinglyLinkedList {
   constructor() {
     this.head = null;
@@ -88,6 +94,11 @@ class SinglyLinkedList {
     }
     this.length++;
     return this;
+  }
+
+  get(index) {
+    let counter = 0;
+    for (let i = 0; i < index; i++) {}
   }
 }
 
